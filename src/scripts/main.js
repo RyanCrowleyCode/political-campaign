@@ -32,20 +32,28 @@ const elizabethSangerCampaign = {
             }
         }
 
-    ]
+    ],
+    volunteers: [
+        {
+            name: "Ryan Crowley",
+            address: "4809 Compassion Lane, Murfreesboro, TN 37128",
+            email: "ryancrowleycode@gmail.com",
+            phone: "615-900-7991",
+            availability: {
+                monday: false,
+                tuesday: false,
+                wednesday: false,
+                thursday: false,
+                friday: false,
+                saturday: true,
+                sunday: true,
+            },
+            activities: ["vocals", "guitar", "sound"],
+        }
+    ],
+    biography: "Elizabeth Sanger was born on Github in the NSS class chapters. She grew up in my VS Code editor, where she currently resides.",
 }
 
-// Calendar of events
-
-// Volunteer information
-//// 1. Name
-//// 2. Address
-//// 3. Email
-//// 4. Phone number
-//// 5. Availability
-//// 6. What activities each one is willing to do (e.g. answering phone calls, taking polls, etc.)
-
-// Biography
 
 // Image gallery
 //// 1. Head shot

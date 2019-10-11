@@ -5,16 +5,35 @@
 
 // Your job is to define the different objects and arrays, their structure, and the corresponding properties for each, to represent the following information about Elizabeth's campaign.
 
-// Her congressional district (you can use yours here)
+const elizabethSangerCampaign = {
+    district: "TN 4",
+    platform: {
+        taxes: "Taxes should be lower!",
+        jobs: "We should have more jobs!",
+        infrastructure: "Let's fix roads, and other things, but in an economically responsible fashion.",
+        healthCare: "We need to reform the current situation to lower health care costs and make healthcare affordable for everyone.",
+        crime: "Crime is bad. Like, stop breaking the law and stuff.",
+    },
+    donationURL: "https://givesomemoneytoelizabethsanger.org",
+    eventCalendar: [
+        {
+            month: "October",
+            day: 26,
+            year: 2019,
+            startTime: "6:00 PM",
+            endTime: "9:00 PM",
+            eventName: "Picker's Creek Winery Rally!",
+            location: {
+                location: "Picker's Creek Winery",
+                address: "1986 New Columbia Hwy",
+                city: "Lewisburg",
+                state: "TN",
+                zip: "37091",
+            }
+        }
 
-// Her platform statements for the following issues.
-//// 1. Taxes
-//// 2. Jobs
-//// 3. Infrastructure
-//// 4. Health care
-//// 5. Crime and enforcement
-
-// URL for donation form
+    ]
+}
 
 // Calendar of events
 

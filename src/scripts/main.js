@@ -18,6 +18,9 @@ const elizabethSanger = {
     },
     donationURL: "https://givesomemoneytoelizabethsanger.org",
     biography: "Elizabeth Sanger was born on Github in the NSS class chapters. She grew up in my VS Code editor, where she currently resides.",
+    missionStatement: "I endeavor to represent the needs and the will of the people.",
+    registerLink: "https://election.rutherfordcountytn.gov/register.html"
+
 }
 
 // Obect for Events
@@ -60,12 +63,10 @@ const volunteers = [
     },
 ]
 
-
+// Creating an object for the Image Gallery. Maybe have an array of objects, where an object will be a key (like "Headshot") and the value will be a link to the file path where that photo is?
 // Image gallery
+
+
 //// 1. Head shot
 //// 2. Picture of family
 //// 3. Picture of constituents
-
-// Mission statement
-
-// URL for registering to vote

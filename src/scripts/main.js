@@ -5,7 +5,9 @@
 
 // Your job is to define the different objects and arrays, their structure, and the corresponding properties for each, to represent the following information about Elizabeth's campaign.
 
-const elizabethSangerCampaign = {
+
+// Ojbect for Elizabeth Sanger
+const elizabethSanger = {
     district: "TN 4",
     platform: {
         taxes: "Taxes should be lower!",
@@ -15,44 +17,48 @@ const elizabethSangerCampaign = {
         crime: "Crime is bad. Like, stop breaking the law and stuff.",
     },
     donationURL: "https://givesomemoneytoelizabethsanger.org",
-    eventCalendar: [
-        {
-            month: "October",
-            day: 26,
-            year: 2019,
-            startTime: "6:00 PM",
-            endTime: "9:00 PM",
-            eventName: "Picker's Creek Winery Rally!",
-            location: {
-                location: "Picker's Creek Winery",
-                address: "1986 New Columbia Hwy",
-                city: "Lewisburg",
-                state: "TN",
-                zip: "37091",
-            }
-        }
-
-    ],
-    volunteers: [
-        {
-            name: "Ryan Crowley",
-            address: "4809 Compassion Lane, Murfreesboro, TN 37128",
-            email: "ryancrowleycode@gmail.com",
-            phone: "615-900-7991",
-            availability: {
-                monday: false,
-                tuesday: false,
-                wednesday: false,
-                thursday: false,
-                friday: false,
-                saturday: true,
-                sunday: true,
-            },
-            activities: ["vocals", "guitar", "sound"],
-        }
-    ],
     biography: "Elizabeth Sanger was born on Github in the NSS class chapters. She grew up in my VS Code editor, where she currently resides.",
 }
+
+// Obect for Events
+const eventCalendar= [
+    {
+        month: "October",
+        day: 26,
+        year: 2019,
+        startTime: "6:00 PM",
+        endTime: "9:00 PM",
+        eventName: "Picker's Creek Winery Rally!",
+        location: {
+            location: "Picker's Creek Winery",
+            address: "1986 New Columbia Hwy",
+            city: "Lewisburg",
+            state: "TN",
+            zip: "37091",
+        }
+    }
+
+]
+
+// Object for Volunteers
+const volunteers = [
+    {
+        name: "Ryan Crowley",
+        address: "4809 Compassion Lane, Murfreesboro, TN 37128",
+        email: "ryancrowleycode@gmail.com",
+        phone: "615-900-7991",
+        availability: {
+            monday: false,
+            tuesday: false,
+            wednesday: false,
+            thursday: false,
+            friday: false,
+            saturday: true,
+            sunday: true,
+        },
+        activities: ["vocals", "guitar", "sound"],
+    },
+]
 
 
 // Image gallery
